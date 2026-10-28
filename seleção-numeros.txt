@@ -1,0 +1,15 @@
+print("======================================================================================================================================================")
+
+print(" escolha um número de 1 a 3")
+case = int(input("ponha um número"))
+
+if case == 1:
+   print("você escolheu o numero 1")
+elif case == 2:
+    print("você escolheu o número 2")
+elif case == 3:
+    print("você escolheu o número 3")
+else:
+    print("Número inválido. Por favor, escolha um número de 1 a 3.")
+
+print("=====================================================================================================================================================")

@@ -1,0 +1,13 @@
+
+print("=======================================")
+idade = int(input("digite sua idade"))
+if idade >= 18:
+  print("você é maior de idade")
+else:
+  print("você é menor de idade")
+if idade >= 40:
+  print("você vai ter que fazer O EXAME.   ")
+else:
+  print ("você não precisa fazer")
+print("========={#FIM#}==========================")
+18

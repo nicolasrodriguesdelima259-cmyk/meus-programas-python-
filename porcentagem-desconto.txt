@@ -1,0 +1,11 @@
+print("==========================================")
+valor = float(input("ponha um valor:"))
+if valor >= 100.00:
+  print("você tem 10% de desconto")
+  desconto_valor = valor * 0.10
+  valor_com_desconto = valor - desconto_valor
+  print(f"O valor com desconto é: {valor_com_desconto}")
+else:
+  print("você não tem desconto")
+  print(f"O valor é: {valor}") # Print the original value
+print("============={#FIM#}=====================")

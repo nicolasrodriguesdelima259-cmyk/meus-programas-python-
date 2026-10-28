@@ -1,0 +1,8 @@
+print("====================================================")
+senha = int(input("ponha a senha"))
+if senha == 123456:
+  print("acesso permitido")
+  print("======{#FIM#}======================================")
+else:
+  print("acesso negado . ")
+  print("======={#tente novamente#}===============================")

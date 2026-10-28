@@ -1,0 +1,8 @@
+print ("====================================================")
+Número = int(input(" ponha um número "))
+if Número ==                                           90:
+   print("você acertou passe para a proxima fase")
+   print("======{#FIM#}======================================")
+else:
+   print(" você errou  ")
+   print("======={#tente novamente#}===============================")

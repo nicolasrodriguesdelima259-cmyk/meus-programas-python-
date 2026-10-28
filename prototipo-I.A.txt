@@ -1,0 +1,22 @@
+from transformers import pipeline
+
+print("🤖 IA iniciada! Digite 'sair' para encerrar.\n")
+
+# Carregar modelo de linguagem
+ia = pipeline(
+    "text-generation",
+    model="microsoft/DialoGPT-medium"
+)
+
+while True:
+    pergunta = input("Você: ")
+
+    if pergunta.lower() == "sair":
+        print("IA encerrada.")
+        break
+
+    resposta = ia(f"{pergunta}",
+    max_length=200,
+    do_sample=True)
+
+    print("IA:", resposta[0]["generated_text"])
